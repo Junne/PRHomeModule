@@ -1,0 +1,7 @@
+PRHomeModule.xcodeproj/xcuserdata/
+PRHomeModule.xcworkspace/
+Pods/
+*.swp
+Podfile.lock
+.DS_Store
+PRHomeModule.xcodeproj/project.xcworkspace/xcuserdata/

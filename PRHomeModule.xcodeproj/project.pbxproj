@@ -15,6 +15,7 @@
 		F57C3DCB1E51A8F500A8480C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F57C3DC91E51A8F500A8480C /* LaunchScreen.storyboard */; };
 		F57C3DD61E51A8F500A8480C /* PRHomeModuleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F57C3DD51E51A8F500A8480C /* PRHomeModuleTests.m */; };
 		F57C3DE11E51A8F500A8480C /* PRHomeModuleUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = F57C3DE01E51A8F500A8480C /* PRHomeModuleUITests.m */; };
+		F57C3DF11E52F0DB00A8480C /* PRHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F57C3DF01E52F0DB00A8480C /* PRHomeViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		F57C3DDC1E51A8F500A8480C /* PRHomeModuleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PRHomeModuleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F57C3DE01E51A8F500A8480C /* PRHomeModuleUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PRHomeModuleUITests.m; sourceTree = "<group>"; };
 		F57C3DE21E51A8F500A8480C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F57C3DEF1E52F0DB00A8480C /* PRHomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PRHomeViewController.h; sourceTree = "<group>"; };
+		F57C3DF01E52F0DB00A8480C /* PRHomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PRHomeViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +104,7 @@
 		F57C3DBA1E51A8F500A8480C /* PRHomeModule */ = {
 			isa = PBXGroup;
 			children = (
+				F57C3DEE1E52F0A900A8480C /* PRHomeModule */,
 				F57C3DBE1E51A8F500A8480C /* AppDelegate.h */,
 				F57C3DBF1E51A8F500A8480C /* AppDelegate.m */,
 				F57C3DC11E51A8F500A8480C /* ViewController.h */,
@@ -138,6 +142,15 @@
 				F57C3DE21E51A8F500A8480C /* Info.plist */,
 			);
 			path = PRHomeModuleUITests;
+			sourceTree = "<group>";
+		};
+		F57C3DEE1E52F0A900A8480C /* PRHomeModule */ = {
+			isa = PBXGroup;
+			children = (
+				F57C3DEF1E52F0DB00A8480C /* PRHomeViewController.h */,
+				F57C3DF01E52F0DB00A8480C /* PRHomeViewController.m */,
+			);
+			path = PRHomeModule;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -279,6 +292,7 @@
 				F57C3DC31E51A8F500A8480C /* ViewController.m in Sources */,
 				F57C3DC01E51A8F500A8480C /* AppDelegate.m in Sources */,
 				F57C3DBD1E51A8F500A8480C /* main.m in Sources */,
+				F57C3DF11E52F0DB00A8480C /* PRHomeViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -11,6 +11,10 @@
 
 @implementation TargetPRHome
 
-
+- (UIViewController *)Action_viewController:(NSDictionary *)params
+{
+    PRHomeViewController *viewController = [[PRHomeViewController alloc] init];
+    return viewController;
+}
 
 @end

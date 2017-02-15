@@ -1,15 +1,15 @@
 //
-//  TargetPRHome.m
+//  Target_PRHome.m
 //  PRHomeModule
 //
 //  Created by baijf on 15/02/2017.
 //  Copyright © 2017 Junne. All rights reserved.
 //
 
-#import "TargetPRHome.h"
+#import "Target_PRHome.h"
 #import "PRHomeViewController.h"
 
-@implementation TargetPRHome
+@implementation Target_PRHome
 
 - (UIViewController *)Action_viewController:(NSDictionary *)params
 {

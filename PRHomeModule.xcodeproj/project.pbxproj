@@ -16,7 +16,7 @@
 		F57C3DD61E51A8F500A8480C /* PRHomeModuleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F57C3DD51E51A8F500A8480C /* PRHomeModuleTests.m */; };
 		F57C3DE11E51A8F500A8480C /* PRHomeModuleUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = F57C3DE01E51A8F500A8480C /* PRHomeModuleUITests.m */; };
 		F57C3DF11E52F0DB00A8480C /* PRHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F57C3DF01E52F0DB00A8480C /* PRHomeViewController.m */; };
-		F57C3E381E53E6DE00A8480C /* TargetPRHome.m in Sources */ = {isa = PBXBuildFile; fileRef = F57C3E371E53E6DE00A8480C /* TargetPRHome.m */; };
+		F57C3E3E1E5454BB00A8480C /* Target_PRHome.m in Sources */ = {isa = PBXBuildFile; fileRef = F57C3E3D1E5454BB00A8480C /* Target_PRHome.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,8 +55,8 @@
 		F57C3DE21E51A8F500A8480C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F57C3DEF1E52F0DB00A8480C /* PRHomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PRHomeViewController.h; sourceTree = "<group>"; };
 		F57C3DF01E52F0DB00A8480C /* PRHomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PRHomeViewController.m; sourceTree = "<group>"; };
-		F57C3E361E53E6DE00A8480C /* TargetPRHome.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TargetPRHome.h; sourceTree = "<group>"; };
-		F57C3E371E53E6DE00A8480C /* TargetPRHome.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TargetPRHome.m; sourceTree = "<group>"; };
+		F57C3E3C1E5454BB00A8480C /* Target_PRHome.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Target_PRHome.h; sourceTree = "<group>"; };
+		F57C3E3D1E5454BB00A8480C /* Target_PRHome.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Target_PRHome.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -160,8 +160,8 @@
 		F57C3E351E53E68000A8480C /* Targets */ = {
 			isa = PBXGroup;
 			children = (
-				F57C3E361E53E6DE00A8480C /* TargetPRHome.h */,
-				F57C3E371E53E6DE00A8480C /* TargetPRHome.m */,
+				F57C3E3C1E5454BB00A8480C /* Target_PRHome.h */,
+				F57C3E3D1E5454BB00A8480C /* Target_PRHome.m */,
 			);
 			path = Targets;
 			sourceTree = "<group>";
@@ -302,9 +302,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F57C3E381E53E6DE00A8480C /* TargetPRHome.m in Sources */,
 				F57C3DC31E51A8F500A8480C /* ViewController.m in Sources */,
 				F57C3DC01E51A8F500A8480C /* AppDelegate.m in Sources */,
+				F57C3E3E1E5454BB00A8480C /* Target_PRHome.m in Sources */,
 				F57C3DBD1E51A8F500A8480C /* main.m in Sources */,
 				F57C3DF11E52F0DB00A8480C /* PRHomeViewController.m in Sources */,
 			);

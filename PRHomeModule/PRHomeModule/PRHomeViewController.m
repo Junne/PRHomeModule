@@ -10,12 +10,16 @@
 
 @interface PRHomeViewController ()
 
+@property(nonatomic, strong) UIButton *nameButton;
 @end
 
 @implementation PRHomeViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    self.nameButton = [[UIButton alloc] initWithFrame:CGRectMake(100, 100, 100, 40)];
+    [self.nameButton setTitle:@"Hi Junne" forState:UIControlStateNormal];
+    [self.view addSubview:self.nameButton];
     // Do any additional setup after loading the view.
 }
 

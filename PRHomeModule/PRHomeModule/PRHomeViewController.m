@@ -10,17 +10,23 @@
 
 @interface PRHomeViewController ()
 
-@property(nonatomic, strong) UIButton *nameButton;
+@property (nonatomic, strong) UIBarButtonItem *publishBarButtonItem;
 @end
 
 @implementation PRHomeViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    self.nameButton = [[UIButton alloc] initWithFrame:CGRectMake(100, 100, 100, 40)];
-    [self.nameButton setTitle:@"Hi Junne" forState:UIControlStateNormal];
-    [self.view addSubview:self.nameButton];
-    // Do any additional setup after loading the view.
+    [self addNavigationTitleView];
+    self.publishBarButtonItem = [[UIBarButtonItem alloc] initWithImage:[UIImage imageNamed:@"publish"] style:UIBarButtonItemStylePlain target:self action:nil];
+    self.navigationItem.rightBarButtonItem = self.publishBarButtonItem;
+    self.view.backgroundColor = [UIColor whiteColor];
+}
+
+- (void)addNavigationTitleView
+{
+    UIImageView *titleImageView = [[UIImageView alloc] initWithImage:[UIImage imageNamed:@"tabbar_home_highlight"]];
+    self.navigationItem.titleView = titleImageView;
 }
 
 - (void)didReceiveMemoryWarning {
